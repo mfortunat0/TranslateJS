@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: #511378;
+  font-size: 40px;
+}
+
+textarea {
+  resize: none;
+  width: 50vh;
+  height: 20vh;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: 3px solid #511378;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+select {
+  width: 8vh;
+  color: #511378;
+  border: none;
+  border-bottom: 2px solid #511378;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  border: 3px solid #511378;
+  background-color: transparent;
+  padding: 1.3vh;
+  font-family: "Indie Flower", cursive;
+  color: #511378;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #511378;
+}
