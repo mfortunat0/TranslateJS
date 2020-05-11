@@ -7,7 +7,7 @@ Simple application using node,react and npm translate library
 #### Requirements
 
 - Docker and Docker-compose
-- Need to create .env file containing TRASNLATEJS=key and ENGINE=google or [yandex](https://translate.yandex.com/developers/keys)
+- Need to create .env file in backend path containing TRASNLATEJS=key and ENGINE=google or [yandex](https://translate.yandex.com/developers/keys)
 
 #### Start
 
